@@ -1,4 +1,10 @@
-git init
+#git init
 注意文件夹所在位置，初始化working area
-git add . / git add 文件
+#git add . / git add 文件
 将所有working area的文件放入staged area/ 将文件放入staged area
+#git commit -m 'message'
+将staged area中的文件放入repository，并记录相关message
+#git log
+查看commit状态
+#git status
+查看文件状态（红色working area/绿色staged area）
