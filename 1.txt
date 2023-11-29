@@ -14,3 +14,7 @@
 撤销工作区文件的改变
 #git reset HEAD <file...> /git reset HEAD 2.txt
 撤销staged area文件，回到working area
+#git branch
+#git checkout -b feature-one
+#git checkout master
+#git branch -D feature-one
