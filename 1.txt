@@ -1,0 +1,4 @@
+git init
+注意文件夹所在位置，初始化working area
+git add . / git add 文件
+将所有working area的文件放入staged area/ 将文件放入staged area
