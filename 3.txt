@@ -1,4 +1,10 @@
 first line
-git status 查看状态
-git checkout -- 文件名  可以撤销工作区该文件的修改
-git reset HEAD 文件名 可以撤销暂存区的该文件，回到工作区
+git status /查看状态
+git checkout -- 文件名  /可以撤销工作区该文件的修改
+git reset HEAD 文件名 /可以撤销暂存区的该文件，回到工作区
+HEAD为当前最新版本
+git reset --soft HEAD~1 /可以撤销commit的文件，回到暂存区     
+HEAD~1为当前最新的前一个版本 
+git stash save 'third line'  /'自定义名字'  存取未commit的改动
+git stash list /查看stash中的保存的代码
+git stash pop  /提取stash保存的代码
